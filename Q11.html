@@ -1,18 +1,26 @@
 <script type="text/javascript">
-    var b = parseInt(prompt("Enter You no :-"));
-    var h = parseInt(prompt("Enter You no :-"));
-    var p = 0.5;
+     var a = parseInt(prompt("Enter of value :-"));
+     var b = parseInt(prompt("Enter of value :-"));
 
-    var sum = p * b * h ;
+     var no = parseInt(prompt("Enter You no :-"));
+      
+     if(no == 1){
+        var c = a + b;
+        console.log(c); 
+     }else if(no == 2){
+        var c = a - b;
+        console.log(c); 
+     }else if(no == 3){
+        var c = a * b;
+        console.log(c); 
+     }else if(no == 4){
+        var c = a % b;
+        console.log(c); 
+     }else if(no == 5){
+        var c = a / b;
+        console.log(c); 
+     }else{
+        console.log(invaida); 
+     }
 
-    document.write("<hi> triangle   ="+sum+"</h1></br>");
-    console.log("triangle   = "+sum); 
-    alert("triangle   = "+sum);
-    document.getElementById('triangle  ').innerHTML=("triangle   = ")+sum; 
-
-    if(sum == 180){
-        console.log("valid "); 
-    }else{
-        console.log("not valid "); 
-    }   
-</script>       
+</script>
